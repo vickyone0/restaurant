@@ -70,3 +70,16 @@ mod back_of_house {
         }
     }
 }
+
+
+use std::fmt::Result;
+use std::io::Result as IoResult;
+fn function1() -> Result <()>
+{
+    // Function implementation
+    Ok(())
+ 
+}
+fn function2() -> IoResult<()> {
+ 
+}
